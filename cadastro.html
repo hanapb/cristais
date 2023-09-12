@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="cadastro.css" />
+    <title></title>
+</head>
+<body>
+<header>
+<h1><img src="imagens/cristal.png" alt="cristal" id="logo">GAIA
+<p id="principal"> Aqui você encontra conhecimento, dicas e boa energia! 
+</p>
+<a href="cadastro.html"><img src="imagens/cadastro.png" id="cadastro"></a>
+<img src="imagens/lupa.png" id="pesquisar">
+</h1>
+</header>
+
+<p>
+<ul>
+<li> <a href="cura.html">Cristais para Cura</a> </li> 
+<li> <a href="prosperidade.html">Cristais para Prosperidade</a> </li>
+<li> <a href="protecao.html">Cristais para Proteção</a> </li>
+</ul>
+</p>
+<p>
+<input id="contrato" name="contrato" type="checkbox" value="sim">
+<label for="contrato" id="contrator">Aceito fornecer os dados necessários para me cadastrar.</label>
+</p>
+
+<p>Após concordar...
+
+<fieldset>
+<legend> <h4>Faça seu cadastro aqui</h4> </legend>
+<form action="/login.php" method= "post">
+
+<label for="nome">Nome:</label>
+<input type="text" name="nome" id="nome" required pattern="[aA-zZ\s]+$" autofocus>
+<br>
+<label for="nome">E-mail:</label>
+<input type="text" name="e-mail" id="e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+<br>
+<label for="nome">Senha:</label>
+<input type="text" name="senha" id="senha" required placeholder="Crie uma senha aqui.">
+<br>
+<label for="nome">Confirme a senha:</label>
+<input type="text" name="senha" id="senha" required placeholder="Ambas devem ser iguais!">
+<br>
+<input type="submit" id="submit">
+</fieldset>
+
+<footer>By HanaPB</footer>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="hana.css" />
+    <title></title>
+</head>
+<body>
+<header>
+<h1><img src="imagens/cristal.png" alt="cristal" id="logo">GAIA
+<p id="principal"> Aqui você encontra conhecimento, dicas e boa energia! 
+</p>
+<a href="cadastro.html"><img src="imagens/cadastro.png" id="cadastro"></a>
+<a href="" onclick="mostrar()"><img src="imagens/lupa.png" id="pesquisar"></a>
+</h1>
+</header>
+
+<p>
+<ul>
+<li> <a href="cura.html">Cristais para Cura</a> </li> 
+<li> <a href="prosperidade.html">Cristais para Prosperidade</a> </li>
+<li> <a href="protecao.html">Cristais para Proteção</a> </li>
+</ul>
+</p>
+
+<main> 
+<input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar">
+
+
+<p>Cristais são a essência da vida manifestando-se nas camadas interiores da Terra. São o desabrochar da porção mineral do planeta e estão entre as estruturas físicas livres de padrões de resistência, pois possuem a frequência energética equilibrada, forte e incorruptível.</p>
+
+<img src="imagens/inicial.jpg" id="inicial">
+
+<label for=" ">Você indicaria nosso site para alguém?</label>
+
+<p>
+<input type="radio" name="avaliação" id="sim" value="sim">
+<label for="sim" >Sim!</label>
+</p>
+<p>
+<input type="radio" name="avaliação" id="não" value="não">
+<label for="não" >Não.</label>
+</p>
+<p>
+<input type="radio" name="avaliação" id="talvez" value="talvez">
+<label for="talvez" >Talvez...</label>
+</p>
+<p>
+<input type="radio" name="avaliação" id="pnr" value="pnr">
+<label for="pnr" >Prefiro não responer.</label>
+</p>
+</main>
+
+<footer>By HanaPB</footer>
+
+<script>
+
+function mostrar(){
+document.getElementById("pesquisa").style.display = 'block';
+}
+
+</script>
+
+</body>
+</html>

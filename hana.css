@@ -1,0 +1,105 @@
+body {
+	 width: 100%;
+	 font-family: Verdana;
+	 background-color: #C4FCC7 ;
+	 text-align: center;
+}
+ 
+main{
+	 width: 100%;
+}
+ 
+h1{
+	color: #004B04 ;
+	padding: 15px;
+	font-family: 'SuperMagic';
+	font-size: 65px;
+	width: 100%;
+}
+ 
+h2{
+	  color: #489950;
+}
+ 
+h3{
+	 color: #489950;
+}
+ 
+p{
+	 width: 100%;
+}
+ 
+table{
+	text-align: center;
+	width: 50%;
+} 
+ 
+nav{
+	font-size: 25px;
+	width: 700px; 
+}
+ 
+li{
+	 display: inline;
+	 margin-right: 50px;
+}
+ 
+input#pesquisa{
+	 border-radius: 15px;
+	 width: 400px;
+	 padding: 10px;
+	 display:none;
+}
+ 
+p#principal {
+	 font-size: 25px;
+	 font-family: 'SuperMagic';
+	 color: #0C7011;
+}
+ 
+
+@font-face{
+	font-family: 'SuperMagic';
+	src: url(Fonte/fontecss.ttf);
+}
+
+img#cristal{
+	width: 100px;
+	height:110px;
+}
+	
+img#cadastro{
+	width:33px;
+	height:33px;
+	float: right top;
+}
+
+img#pesquisar{
+	width:33px;
+	height:33px;
+	float: right top;
+}
+
+footer{
+	font-family: 'SuperMagic';
+	color: #75BD7C;
+	clear: both;
+}
+
+label{
+	color: #004B04 ;
+}
+
+img#inicial{
+	width: 15%;
+	height: 15%;
+	float: left;
+	margin: 15px;
+}
+
+img#inicial{
+	width: 30%;
+	height: 30%;
+	float: left;
+	margin: 15px;
+}
